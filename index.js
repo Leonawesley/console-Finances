@@ -86,3 +86,45 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+console.log("Financial Analysis");
+console.log("---------------------");
+
+//To find the total month
+let totalMonths = 0;
+for (let i = 0; i < finances.length; i++) {
+    const [date,amount] = finances[i];
+    totalMonths++;
+}
+
+console.log("Total Months : " + totalMonths);
+
+//The net total amount of Profit/Losses over the entire period.
+let totalAmount = 0;
+for (let i = 0; i < finances.length; i++) {
+    const [date,amount] = finances[i];
+    totalAmount += amount;
+    
+}
+
+console.log("Total : " + totalAmount)
+
+//The average of the changes in Profit/Losses over the entire period.
+let averageChanges = [];
+let averageAmount;
+for (let i = 1; i < finances.length; i++) {
+    const [dateCur,amountCur] = finances[i];
+    const [datePre,amountPre] = finances[i-1];
+    averageAmount = amountCur - amountPre;
+    averageChanges.push(averageAmount);
+}
+
+let averageSum = 0;
+for (let i = 0; i < averageChanges.length; i++) {
+    const element = averageChanges[i];
+    averageSum += element;
+    
+}
+console.log("Average change : " + (averageSum/averageChanges.length).toFixed(2));
+
+//The greatest increase in profits (date and amount) over the entire period.
+
