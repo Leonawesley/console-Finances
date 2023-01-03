@@ -6,7 +6,9 @@ In this project financial analysis of a particular dataset has been done using j
 
 ## Project Details
 
-From the dataset array provided in index.js iterations were done to find the months included, total amount of Profit/Losses, average of the changes in profit/losses, greatest increase in profits, greatest decrease in profit over the entire period
+From the dataset array provided in index.js iterations were done to find the months included, total amount of Profit/Losses, average of the changes in profit/losses, greatest increase in profits, greatest decrease in profit over the entire period.
+
+All the output results are displayed in the console.
 
 ## Installation
 
