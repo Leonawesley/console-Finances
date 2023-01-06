@@ -10,6 +10,8 @@ From the dataset array provided in index.js iterations were done to find the mon
 
 All the output results are displayed in the console.
 
+![Financial analysis](./financialanalysis.png)
+
 ## Installation
 
 N/A
@@ -20,10 +22,15 @@ Please refer to the license in the repo
 
 ## Credits
 
-*https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
-*https://www.w3schools.com/jsref/jsref_tofixed.asp
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+* https://www.w3schools.com/jsref/jsref_tofixed.asp
 
 ## Deployed github link
+
+* https://leonawesley.github.io/console-Finances/
+
+* https://github.com/Leonawesley/console-Finances
 
 
 
